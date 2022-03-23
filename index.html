@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/APIHandler.js"></script>
+    <script src="Scripts/example.js"></script>
+    <link rel="stylesheet" href="login_style.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <div class="banner">
+        <h1>Waste Management</h1>
+        <img src="UoD.jpg" alt="University of Derby">
+    </div>
+
+    <div class="login-form">
+        <h1>Login</h1>
+        <p id="alertText">Username and password combination does not match</p>
+        <label for="username"><b>Username</b></label>
+        <div class="fields"><input type="text" id="username"></div>
+        <label for="password"><b>Password</b></label>
+        <div class="fields"><input type="password" id="password"></div>
+        <div class="login" id="submit"><button onclick="LogIn()"><b>submit</b></button></div>
+    </div>
+
+</body>
+
+</html>
