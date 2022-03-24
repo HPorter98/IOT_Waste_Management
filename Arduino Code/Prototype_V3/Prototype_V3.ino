@@ -184,7 +184,7 @@ void loop() {
       myServo.write(0);
     }
 
-    if (d2 < 10)
+    if (d2 < 10 && !isFull)
     {
       myServo.write(90);
     }
