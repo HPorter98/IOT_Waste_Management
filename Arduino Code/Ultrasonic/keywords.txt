@@ -1,0 +1,18 @@
+###########################################
+# Syntax Coloring Map For DHT nonblocking library
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+Ultrasonic	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+
+calculatedistance	KEYWORD2
+pulse	KEYWORD2
+init	KEYWORD2
+
